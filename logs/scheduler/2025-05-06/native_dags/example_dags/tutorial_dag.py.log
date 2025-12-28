@@ -1,0 +1,116 @@
+[2025-05-06T18:46:08.710-0500] {processor.py:161} INFO - Started process (PID=62947) to work on /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-06T18:46:08.710-0500] {processor.py:830} INFO - Processing file /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-05-06T18:46:08.711-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:46:08.711-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-06T18:46:08.718-0500] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-06T18:46:08.764-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:46:08.764-0500] {override.py:1829} INFO - Created Permission View: can delete on DAG:tutorial_dag
+[2025-05-06T18:46:08.767-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:46:08.767-0500] {override.py:1829} INFO - Created Permission View: can read on DAG:tutorial_dag
+[2025-05-06T18:46:08.768-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:46:08.768-0500] {override.py:1829} INFO - Created Permission View: can edit on DAG:tutorial_dag
+[2025-05-06T18:46:08.768-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:46:08.768-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-06T18:46:08.771-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:46:08.771-0500] {dag.py:3118} INFO - Creating ORM DAG for tutorial_dag
+[2025-05-06T18:46:08.771-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:46:08.771-0500] {dag.py:3954} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-05-06T18:46:08.798-0500] {processor.py:183} INFO - Processing /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.089 seconds
+[2025-05-06T18:47:22.779-0500] {processor.py:161} INFO - Started process (PID=63019) to work on /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-06T18:47:22.780-0500] {processor.py:830} INFO - Processing file /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-05-06T18:47:22.780-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:47:22.780-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-06T18:47:22.788-0500] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-06T18:47:22.812-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:47:22.812-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-06T18:47:22.814-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:47:22.814-0500] {dag.py:3954} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-05-06T18:47:22.819-0500] {processor.py:183} INFO - Processing /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.041 seconds
+[2025-05-06T18:48:43.895-0500] {processor.py:161} INFO - Started process (PID=63102) to work on /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-06T18:48:43.896-0500] {processor.py:830} INFO - Processing file /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-05-06T18:48:43.896-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:48:43.896-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-06T18:48:43.903-0500] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-06T18:48:43.927-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:48:43.927-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-06T18:48:43.930-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:48:43.930-0500] {dag.py:3954} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-05-06T18:48:43.935-0500] {processor.py:183} INFO - Processing /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.041 seconds
+[2025-05-06T18:49:26.591-0500] {processor.py:161} INFO - Started process (PID=63141) to work on /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-06T18:49:26.592-0500] {processor.py:830} INFO - Processing file /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-05-06T18:49:26.592-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:49:26.592-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-06T18:49:26.600-0500] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-06T18:49:26.627-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:49:26.627-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-06T18:49:26.630-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:49:26.630-0500] {dag.py:3954} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-05-06T18:49:26.635-0500] {processor.py:183} INFO - Processing /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.045 seconds
+[2025-05-06T18:50:13.782-0500] {processor.py:161} INFO - Started process (PID=63208) to work on /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-06T18:50:13.782-0500] {processor.py:830} INFO - Processing file /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-05-06T18:50:13.783-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:50:13.783-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-06T18:50:13.793-0500] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-06T18:50:13.826-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:50:13.826-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-06T18:50:13.830-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:50:13.830-0500] {dag.py:3954} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-05-06T18:50:13.845-0500] {processor.py:183} INFO - Processing /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.066 seconds
+[2025-05-06T18:51:00.932-0500] {processor.py:161} INFO - Started process (PID=63270) to work on /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-06T18:51:00.933-0500] {processor.py:830} INFO - Processing file /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-05-06T18:51:00.933-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:51:00.933-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-06T18:51:00.945-0500] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-06T18:51:00.971-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:51:00.971-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-06T18:51:00.974-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:51:00.974-0500] {dag.py:3954} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-05-06T18:51:00.979-0500] {processor.py:183} INFO - Processing /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.051 seconds
+[2025-05-06T18:51:47.028-0500] {processor.py:161} INFO - Started process (PID=63311) to work on /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-06T18:51:47.028-0500] {processor.py:830} INFO - Processing file /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-05-06T18:51:47.028-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:51:47.028-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-06T18:51:47.038-0500] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-06T18:51:47.064-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:51:47.064-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-06T18:51:47.067-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:51:47.066-0500] {dag.py:3954} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-05-06T18:51:47.072-0500] {processor.py:183} INFO - Processing /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.047 seconds
+[2025-05-06T18:52:29.874-0500] {processor.py:161} INFO - Started process (PID=63366) to work on /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-06T18:52:29.874-0500] {processor.py:830} INFO - Processing file /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-05-06T18:52:29.874-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:52:29.874-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-06T18:52:29.882-0500] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-06T18:52:29.907-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:52:29.907-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-06T18:52:29.910-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:52:29.910-0500] {dag.py:3954} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-05-06T18:52:29.915-0500] {processor.py:183} INFO - Processing /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.042 seconds
+[2025-05-06T18:53:55.639-0500] {processor.py:161} INFO - Started process (PID=63476) to work on /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-06T18:53:55.640-0500] {processor.py:830} INFO - Processing file /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-05-06T18:53:55.640-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:53:55.640-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-06T18:53:55.649-0500] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-06T18:53:55.652-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:53:55.652-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-06T18:53:55.674-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:53:55.674-0500] {dag.py:3954} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-05-06T18:53:55.679-0500] {processor.py:183} INFO - Processing /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.041 seconds
+[2025-05-06T18:54:38.666-0500] {processor.py:161} INFO - Started process (PID=63517) to work on /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-06T18:54:38.666-0500] {processor.py:830} INFO - Processing file /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-05-06T18:54:38.666-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:54:38.666-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-06T18:54:38.674-0500] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-06T18:54:38.720-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:54:38.720-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-06T18:54:38.722-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:54:38.722-0500] {dag.py:3954} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-05-06T18:54:38.747-0500] {processor.py:183} INFO - Processing /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.082 seconds
+[2025-05-06T18:55:22.801-0500] {processor.py:161} INFO - Started process (PID=63558) to work on /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-06T18:55:22.802-0500] {processor.py:830} INFO - Processing file /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-05-06T18:55:22.802-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:55:22.802-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-06T18:55:22.809-0500] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-06T18:55:22.833-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:55:22.833-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-06T18:55:22.836-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:55:22.835-0500] {dag.py:3954} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-05-06T18:55:22.840-0500] {processor.py:183} INFO - Processing /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.040 seconds
+[2025-05-06T18:56:06.734-0500] {processor.py:161} INFO - Started process (PID=63604) to work on /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-06T18:56:06.734-0500] {processor.py:830} INFO - Processing file /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-05-06T18:56:06.734-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:56:06.734-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-06T18:56:06.742-0500] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-06T18:56:06.767-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:56:06.767-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-06T18:56:06.769-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:56:06.769-0500] {dag.py:3954} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-05-06T18:56:06.774-0500] {processor.py:183} INFO - Processing /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.042 seconds
+[2025-05-06T18:57:31.048-0500] {processor.py:161} INFO - Started process (PID=63698) to work on /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-06T18:57:31.048-0500] {processor.py:830} INFO - Processing file /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-05-06T18:57:31.048-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:57:31.048-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-06T18:57:31.056-0500] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-06T18:57:31.081-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:57:31.081-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-06T18:57:31.084-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:57:31.084-0500] {dag.py:3954} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-05-06T18:57:31.089-0500] {processor.py:183} INFO - Processing /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.042 seconds
+[2025-05-06T18:58:27.299-0500] {processor.py:161} INFO - Started process (PID=63758) to work on /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-06T18:58:27.300-0500] {processor.py:830} INFO - Processing file /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-05-06T18:58:27.300-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:58:27.300-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-06T18:58:27.308-0500] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-06T18:58:27.334-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:58:27.334-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-06T18:58:27.337-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:58:27.336-0500] {dag.py:3954} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-05-06T18:58:27.342-0500] {processor.py:183} INFO - Processing /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.043 seconds
+[2025-05-06T18:58:56.025-0500] {processor.py:161} INFO - Started process (PID=63816) to work on /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-06T18:58:56.025-0500] {processor.py:830} INFO - Processing file /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-05-06T18:58:56.026-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:58:56.025-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-06T18:58:56.035-0500] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-06T18:58:56.063-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:58:56.063-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-06T18:58:56.066-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:58:56.066-0500] {dag.py:3954} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-05-06T18:58:56.075-0500] {processor.py:183} INFO - Processing /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.052 seconds
+[2025-05-06T18:59:32.158-0500] {processor.py:161} INFO - Started process (PID=63853) to work on /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-06T18:59:32.159-0500] {processor.py:830} INFO - Processing file /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-05-06T18:59:32.159-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:59:32.159-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-06T18:59:32.167-0500] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-06T18:59:32.192-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:59:32.192-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-06T18:59:32.195-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:59:32.195-0500] {dag.py:3954} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-05-06T18:59:32.200-0500] {processor.py:183} INFO - Processing /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.043 seconds

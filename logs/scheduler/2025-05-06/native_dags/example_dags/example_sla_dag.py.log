@@ -1,0 +1,74 @@
+[2025-05-06T18:46:23.010-0500] {processor.py:161} INFO - Started process (PID=62962) to work on /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-05-06T18:46:23.010-0500] {processor.py:830} INFO - Processing file /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-05-06T18:46:23.010-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:46:23.010-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-05-06T18:46:23.022-0500] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-05-06T18:46:23.066-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:46:23.066-0500] {override.py:1829} INFO - Created Permission View: can edit on DAG:example_sla_dag
+[2025-05-06T18:46:23.069-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:46:23.068-0500] {override.py:1829} INFO - Created Permission View: can delete on DAG:example_sla_dag
+[2025-05-06T18:46:23.070-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:46:23.070-0500] {override.py:1829} INFO - Created Permission View: can read on DAG:example_sla_dag
+[2025-05-06T18:46:23.070-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:46:23.070-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-06T18:46:23.092-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:46:23.092-0500] {dag.py:3118} INFO - Creating ORM DAG for example_sla_dag
+[2025-05-06T18:46:23.095-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:46:23.095-0500] {dag.py:3954} INFO - Setting next_dagrun for example_sla_dag to 2025-05-06 23:44:00+00:00, run_after=2025-05-06 23:46:00+00:00
+[2025-05-06T18:46:23.100-0500] {processor.py:183} INFO - Processing /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.091 seconds
+[2025-05-06T18:47:36.062-0500] {processor.py:161} INFO - Started process (PID=63031) to work on /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-05-06T18:47:36.062-0500] {processor.py:830} INFO - Processing file /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-05-06T18:47:36.062-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:47:36.062-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-05-06T18:47:36.073-0500] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-05-06T18:47:36.097-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:47:36.097-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-06T18:47:36.102-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:47:36.102-0500] {dag.py:3954} INFO - Setting next_dagrun for example_sla_dag to 2025-05-06 23:44:00+00:00, run_after=2025-05-06 23:46:00+00:00
+[2025-05-06T18:47:36.107-0500] {processor.py:183} INFO - Processing /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.046 seconds
+[2025-05-06T18:48:57.298-0500] {processor.py:161} INFO - Started process (PID=63117) to work on /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-05-06T18:48:57.298-0500] {processor.py:830} INFO - Processing file /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-05-06T18:48:57.299-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:48:57.298-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-05-06T18:48:57.311-0500] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-05-06T18:48:57.337-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:48:57.337-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-06T18:48:57.342-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:48:57.342-0500] {dag.py:3954} INFO - Setting next_dagrun for example_sla_dag to 2025-05-06 23:46:00+00:00, run_after=2025-05-06 23:48:00+00:00
+[2025-05-06T18:48:57.347-0500] {processor.py:183} INFO - Processing /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.051 seconds
+[2025-05-06T18:50:29.354-0500] {processor.py:161} INFO - Started process (PID=63234) to work on /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-05-06T18:50:29.354-0500] {processor.py:830} INFO - Processing file /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-05-06T18:50:29.354-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:50:29.354-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-05-06T18:50:29.365-0500] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-05-06T18:50:29.390-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:50:29.390-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-06T18:50:29.395-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:50:29.395-0500] {dag.py:3954} INFO - Setting next_dagrun for example_sla_dag to 2025-05-06 23:48:00+00:00, run_after=2025-05-06 23:50:00+00:00
+[2025-05-06T18:50:29.400-0500] {processor.py:183} INFO - Processing /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.048 seconds
+[2025-05-06T18:51:59.143-0500] {processor.py:161} INFO - Started process (PID=63323) to work on /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-05-06T18:51:59.143-0500] {processor.py:830} INFO - Processing file /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-05-06T18:51:59.144-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:51:59.143-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-05-06T18:51:59.155-0500] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-05-06T18:51:59.179-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:51:59.179-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-06T18:51:59.184-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:51:59.184-0500] {dag.py:3954} INFO - Setting next_dagrun for example_sla_dag to 2025-05-06 23:48:00+00:00, run_after=2025-05-06 23:50:00+00:00
+[2025-05-06T18:51:59.189-0500] {processor.py:183} INFO - Processing /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.047 seconds
+[2025-05-06T18:53:22.125-0500] {processor.py:161} INFO - Started process (PID=63430) to work on /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-05-06T18:53:22.125-0500] {processor.py:830} INFO - Processing file /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-05-06T18:53:22.125-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:53:22.125-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-05-06T18:53:22.137-0500] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-05-06T18:53:22.162-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:53:22.162-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-06T18:53:22.167-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:53:22.167-0500] {dag.py:3954} INFO - Setting next_dagrun for example_sla_dag to 2025-05-06 23:50:00+00:00, run_after=2025-05-06 23:52:00+00:00
+[2025-05-06T18:53:22.173-0500] {processor.py:183} INFO - Processing /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.050 seconds
+[2025-05-06T18:54:49.955-0500] {processor.py:161} INFO - Started process (PID=63530) to work on /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-05-06T18:54:49.956-0500] {processor.py:830} INFO - Processing file /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-05-06T18:54:49.956-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:54:49.956-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-05-06T18:54:49.967-0500] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-05-06T18:54:50.015-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:54:50.015-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-06T18:54:50.046-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:54:50.046-0500] {dag.py:3954} INFO - Setting next_dagrun for example_sla_dag to 2025-05-06 23:52:00+00:00, run_after=2025-05-06 23:54:00+00:00
+[2025-05-06T18:54:50.051-0500] {processor.py:183} INFO - Processing /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.098 seconds
+[2025-05-06T18:56:17.262-0500] {processor.py:161} INFO - Started process (PID=63617) to work on /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-05-06T18:56:17.262-0500] {processor.py:830} INFO - Processing file /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-05-06T18:56:17.262-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:56:17.262-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-05-06T18:56:17.274-0500] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-05-06T18:56:17.298-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:56:17.298-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-06T18:56:17.303-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:56:17.303-0500] {dag.py:3954} INFO - Setting next_dagrun for example_sla_dag to 2025-05-06 23:54:00+00:00, run_after=2025-05-06 23:56:00+00:00
+[2025-05-06T18:56:17.308-0500] {processor.py:183} INFO - Processing /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.048 seconds
+[2025-05-06T18:57:42.235-0500] {processor.py:161} INFO - Started process (PID=63708) to work on /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-05-06T18:57:42.237-0500] {processor.py:830} INFO - Processing file /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-05-06T18:57:42.237-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:57:42.237-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-05-06T18:57:42.249-0500] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-05-06T18:57:42.275-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:57:42.275-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-06T18:57:42.280-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:57:42.280-0500] {dag.py:3954} INFO - Setting next_dagrun for example_sla_dag to 2025-05-06 23:54:00+00:00, run_after=2025-05-06 23:56:00+00:00
+[2025-05-06T18:57:42.285-0500] {processor.py:183} INFO - Processing /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.051 seconds
+[2025-05-06T18:58:42.313-0500] {processor.py:161} INFO - Started process (PID=63793) to work on /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-05-06T18:58:42.314-0500] {processor.py:830} INFO - Processing file /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-05-06T18:58:42.314-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:58:42.314-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-05-06T18:58:42.328-0500] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-05-06T18:58:42.355-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:58:42.354-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-06T18:58:42.362-0500] {logging_mixin.py:188} INFO - [2025-05-06T18:58:42.362-0500] {dag.py:3954} INFO - Setting next_dagrun for example_sla_dag to 2025-05-06 23:56:00+00:00, run_after=2025-05-06 23:58:00+00:00
+[2025-05-06T18:58:42.369-0500] {processor.py:183} INFO - Processing /Users/chakradharreddyvangala/venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.057 seconds

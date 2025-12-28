@@ -86,8 +86,12 @@ Return the response strictly in the following JSON format (single string):
 # --------------------------------------------------
 # Streamlit UI
 # --------------------------------------------------
-st.title("AI Resume ATS Evaluator")
-st.write("Analyze your resume against a job description using an AI-powered ATS system.")
+st.title("📄 AI Resume ATS Analyzer")
+st.markdown(
+    "Analyze your resume against a job description using an AI-powered ATS engine. "
+    "Get match percentage, missing keywords, and improvement suggestions."
+)
+
 
 jd = st.text_area("Paste Job Description")
 uploaded_file = st.file_uploader(
@@ -102,18 +106,18 @@ submit = st.button("Evaluate Resume")
 # Button Action
 # --------------------------------------------------
 if submit:
-    if uploaded_file and jd.strip():
-        resume_text = input_pdf_text(uploaded_file)
+    if uploaded_file is not None:
+        with st.spinner("🔍 Analyzing resume with ATS engine... Please wait"):
+            resume_text = input_pdf_text(uploaded_file)
 
-        final_prompt = input_prompt.format(
-            text=resume_text,
-            jd=jd
-        )
+            final_prompt = input_prompt.format(
+                text=resume_text,
+                jd=jd
+            )
 
-        with st.spinner("Evaluating resume using AI ATS..."):
-            response = get_llm_response(final_prompt)
-
-        st.subheader("ATS Evaluation Result")
+            response = get_gemini_response(final_prompt)
+        st.divider()
+        st.subheader("📊 ATS Evaluation Result")
         st.write(response)
 
     else:

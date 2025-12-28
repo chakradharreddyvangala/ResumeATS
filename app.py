@@ -3,6 +3,9 @@ import os
 import json
 import PyPDF2 as pdf
 import plotly.graph_objects as go
+import faiss
+import numpy as np
+from sentence_transformers import SentenceTransformer
 from dotenv import load_dotenv
 from groq import Groq
 
@@ -24,6 +27,8 @@ load_dotenv()
 # Initialize Groq Client
 # --------------------------------------------------
 client = Groq(api_key=os.getenv("GROQ_API_KEY"))
+embedding_model = SentenceTransformer("all-MiniLM-L6-v2")
+
 
 # --------------------------------------------------
 # Circular ATS Match Indicator
@@ -85,6 +90,35 @@ def input_pdf_text(uploaded_file):
             text += page_text
     return text
 
+# Split resumes into Chuncks
+def split_text(text, chunk_size=500):
+    chunks = []
+    words = text.split()
+    for i in range(0, len(words), chunk_size):
+        chunk = " ".join(words[i:i + chunk_size])
+        chunks.append(chunk)
+    return chunks
+
+
+#Create embeddings fro resume chunks
+def create_embeddings(chunks):
+    return embedding_model.encode(chunks)
+
+# Store Embeddings in FAISS vector db
+def build_faiss_index(embeddings):
+    dimension = embeddings.shape[1]
+    index = faiss.IndexFlatL2(dimension)
+    index.add(np.array(embeddings))
+    return index
+
+#Retrieve Releveant resume chunks using JD
+def retrieve_relevant_chunks(jd_text, chunks, index, top_k=4):
+    jd_embedding = embedding_model.encode([jd_text])
+    distances, indices = index.search(np.array(jd_embedding), top_k)
+    return [chunks[i] for i in indices[0]]
+
+
+
 # --------------------------------------------------
 # Prompt Template
 # --------------------------------------------------
@@ -125,7 +159,7 @@ Return the response strictly in the following JSON format (single string):
 # --------------------------------------------------
 # UI
 # --------------------------------------------------
-st.title("📄 AI Resume ATS Analyzer")
+st.title("📄 AI Resume ATS Analyzer with RAG")
 st.markdown(
     "Analyze your resume against a job description using an AI-powered ATS engine. "
     "Get match percentage, missing keywords, and improvement suggestions."
@@ -147,8 +181,21 @@ if submit:
     if uploaded_file and jd:
         with st.spinner("🔍 Analyzing resume with ATS engine... Please wait"):
             resume_text = input_pdf_text(uploaded_file)
-            final_prompt = input_prompt.format(text=resume_text, jd=jd)
+            # RAG PIPELINE START
+            chunks = split_text(resume_text)
+            embeddings = create_embeddings(chunks)
+            index = build_faiss_index(embeddings)
+            relevant_chunks = retrieve_relevant_chunks(jd, chunks, index)
+
+            rag_context = "\n\n".join(relevant_chunks)
+
+            final_prompt = input_prompt.format(
+                text=rag_context,
+                jd=jd
+            )
+
             response = get_llm_response(final_prompt)
+            
 
         # Parse JSON
         try:
